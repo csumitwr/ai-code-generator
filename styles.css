@@ -1,0 +1,255 @@
+/* Chunk 1 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+/* Chunk 2 */
+html,
+body,
+[class*="css"] {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Chunk 3 */
+.stApp {
+
+    background: linear-gradient(
+        135deg,
+        #5b6cff 0%,
+        #d96bc3 100%
+    );
+
+    min-height: 100vh;
+}
+
+
+/* Chunk 4 */
+.block-container {
+
+    max-width: 1200px;
+
+    padding-top: 2rem;
+
+    padding-bottom: 3rem;
+}
+
+
+/* Chunk 5 */
+.main-title {
+
+    text-align: center;
+
+    font-size: 64px;
+
+    font-weight: 700;
+
+    font-style: italic;
+
+    color: transparent;
+
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.75);
+
+    margin-bottom: 55px;
+
+    letter-spacing: 1px;
+}
+
+
+/* Chunk 6 */
+.stSelectbox label,
+.stTextArea label {
+    display: none;
+}
+
+
+/* Chunk 7 */
+.stSelectbox > div > div {
+
+    background: rgba(255, 255, 255, 0.10) !important;
+
+    color: white !important;
+
+    border: 1px solid rgba(255, 255, 255, 0.18) !important;
+
+    border-radius: 18px !important;
+
+    height: 64px !important;
+
+    min-height: 64px !important;
+
+    padding-left: 18px !important;
+
+    font-size: 22px !important;
+
+    font-weight: 500 !important;
+
+    backdrop-filter: blur(10px);
+
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+
+/* Chunk 8 */
+.stButton > button {
+
+    width: 100%;
+
+    height: 64px;
+
+    border-radius: 18px;
+
+    border: none;
+
+    background: linear-gradient(
+        135deg,
+        #2155ff,
+        #9b59ff
+    );
+
+    color: white;
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+    transition: 0.25s ease;
+
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+
+/* Chunk 9 */
+.stButton > button:hover {
+
+    transform: translateY(-2px);
+
+    opacity: 0.95;
+}
+
+
+/* Chunk 10 */
+.stTextArea textarea {
+
+    background: rgba(255, 255, 255, 0.10) !important;
+
+    color: white !important;
+
+    border: 1px solid rgba(255, 255, 255, 0.18) !important;
+
+    border-radius: 28px !important;
+
+    padding: 28px !important;
+
+    font-size: 20px !important;
+
+    min-height: 420px !important;
+
+    line-height: 1.8;
+
+    backdrop-filter: blur(12px);
+
+    box-shadow:
+        0 12px 28px rgba(0, 0, 0, 0.18);
+}
+
+
+/* Chunk 11 */
+.stTextArea textarea::placeholder {
+
+    color: rgba(255, 255, 255, 0.75) !important;
+
+    font-size: 18px !important;
+}
+
+
+/* Chunk 12 */
+h2 {
+
+    color: white !important;
+
+    margin-top: 45px !important;
+
+    margin-bottom: 15px !important;
+
+    font-size: 34px !important;
+}
+
+
+/* Chunk 13 */
+.stCodeBlock {
+
+    border-radius: 24px !important;
+
+    overflow: hidden !important;
+
+    box-shadow:
+        0 12px 28px rgba(0, 0, 0, 0.18);
+}
+
+
+/* Chunk 14 */
+.explanation-box {
+
+    background: rgba(255, 255, 255, 0.10);
+
+    border: 1px solid rgba(255, 255, 255, 0.16);
+
+    border-radius: 24px;
+
+    padding: 26px;
+
+    color: white;
+
+    font-size: 18px;
+
+    line-height: 1.8;
+
+    backdrop-filter: blur(12px);
+
+    box-shadow:
+        0 12px 28px rgba(0, 0, 0, 0.18);
+}
+
+
+/* Chunk 15 */
+div[data-baseweb="select"] > div {
+
+    border: none !important;
+
+    background: transparent !important;
+}
+
+
+/* Chunk 16 */
+.stSpinner {
+
+    color: white !important;
+}
+
+
+/* Chunk 17 */
+@media (max-width: 768px) {
+
+    .main-title {
+        font-size: 42px;
+        margin-bottom: 35px;
+    }
+
+    .stTextArea textarea {
+        min-height: 300px !important;
+        font-size: 18px !important;
+    }
+
+    .stButton > button {
+        height: 58px;
+        font-size: 16px;
+    }
+
+    .stSelectbox > div > div {
+        height: 58px !important;
+        min-height: 58px !important;
+        font-size: 18px !important;
+    }
+}
