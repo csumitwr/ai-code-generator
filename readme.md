@@ -8,8 +8,6 @@ A beginner-friendly AI Code Generator built using:
 
 This project allows users to generate code in multiple programming languages using a locally running LLM.
 
----
-
 # Features
 - Generate code using AI
 - Beginner-friendly explanations
@@ -18,8 +16,6 @@ This project allows users to generate code in multiple programming languages usi
 - Local LLM execution using Ollama
 - Simple and clean architecture
 
----
-
 # Supported Languages
 - Python
 - JavaScript
@@ -27,7 +23,14 @@ This project allows users to generate code in multiple programming languages usi
 - C
 - C++
 
----
+# Screenshots
+
+## Home Page
+![Home Page](assets/home.png)
+
+## Generated Code Example
+![Generated Code](assets/generated-code.png)
+
 
 # Tech Stack
 | Technology | Purpose |
@@ -36,8 +39,6 @@ This project allows users to generate code in multiple programming languages usi
 | Streamlit | Frontend UI |
 | Ollama | Local LLM runtime |
 | qwen2.5:7b | AI model |
-
----
 
 # Project Structure
 ```bash
@@ -51,8 +52,6 @@ ai-code-generator/
 └── venv/
 ```
 
----
-
 # Installation
 
 ## 1. Clone the Repository
@@ -60,8 +59,6 @@ ai-code-generator/
 git clone <your-repository-url>
 cd ai-code-generator
 ```
-
----
 
 ## 2. Create Virtual Environment
 
@@ -77,14 +74,10 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
----
-
 ## 3. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
-
----
 
 # Install Ollama
 
@@ -98,14 +91,10 @@ Verify installation:
 ollama --version
 ```
 
----
-
 # Download the Model
 ```bash
 ollama pull qwen2.5:7b
 ```
-
----
 
 # Run the Application
 Start Streamlit:
@@ -116,8 +105,6 @@ streamlit run app.py
 
 The app will open in your browser automatically.
 
----
-
 # How It Works
 1. User enters a coding request
 2. User selects a programming language
@@ -127,14 +114,10 @@ The app will open in your browser automatically.
    - Generated code
    - Beginner-friendly explanation
 
----
-
 # Example Prompt
 ```text
 Create a Python calculator using functions
 ```
-
----
 
 # Future Improvements
 - Copy code button
@@ -144,11 +127,7 @@ Create a Python calculator using functions
 - Chat history
 - Dark/light mode toggle
 
----
-
 # Important Notes
 - Ollama must be running locally
 - Internet is not required after model download
 - This project uses local AI inference
-
----
