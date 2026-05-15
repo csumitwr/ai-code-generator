@@ -26,10 +26,10 @@ This project allows users to generate code in multiple programming languages usi
 # Screenshots
 
 ## Home Page
-![Home Page](assets/home.png)
+![Home Page](assets/home-page.png)
 
 ## Generated Code Example
-![Generated Code](assets/generated-code.png)
+![Generated Code](assets/result-page.png)
 
 
 # Tech Stack
