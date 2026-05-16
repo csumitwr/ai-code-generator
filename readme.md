@@ -56,7 +56,7 @@ ai-code-generator/
 
 ## 1. Clone the Repository
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/csumitwr/ai-code-generator.git
 cd ai-code-generator
 ```
 
